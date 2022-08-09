@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -818,7 +818,7 @@ PrefabInstance:
     - target: {fileID: 1429366019731937510, guid: 8ad01df6ec257ef4095306f8a22334e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1429366019731937510, guid: 8ad01df6ec257ef4095306f8a22334e1,
         type: 3}
@@ -2607,7 +2607,7 @@ Transform:
   - {fileID: 495149720}
   - {fileID: 1481136368}
   m_Father: {fileID: 820793389}
-  m_RootOrder: 29
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &582357193
 PrefabInstance:
@@ -4094,11 +4094,11 @@ Transform:
   - {fileID: 1792356974}
   - {fileID: 1278929671}
   - {fileID: 192468041}
+  - {fileID: 569057686}
   - {fileID: 432339219}
   - {fileID: 2013927523}
   - {fileID: 1301760688}
   - {fileID: 726672660}
-  - {fileID: 569057686}
   - {fileID: 1937799965}
   m_Father: {fileID: 91738944}
   m_RootOrder: 1
@@ -6303,7 +6303,7 @@ PrefabInstance:
     - target: {fileID: 1429366019731937510, guid: 8ad01df6ec257ef4095306f8a22334e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1429366019731937510, guid: 8ad01df6ec257ef4095306f8a22334e1,
         type: 3}
@@ -6942,7 +6942,7 @@ PrefabInstance:
     - target: {fileID: 3690909887412246098, guid: d251ec51b3111124ba2805cfd66afec7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3690909887412246098, guid: d251ec51b3111124ba2805cfd66afec7,
         type: 3}
@@ -9893,7 +9893,7 @@ PrefabInstance:
     - target: {fileID: 3690909887412246098, guid: d251ec51b3111124ba2805cfd66afec7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3690909887412246098, guid: d251ec51b3111124ba2805cfd66afec7,
         type: 3}
@@ -10612,7 +10612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1937799965
 Transform:
   m_ObjectHideFlags: 0
